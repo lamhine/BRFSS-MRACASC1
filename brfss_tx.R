@@ -3,6 +3,8 @@ library(tidyverse)
 # load data 
 state_15_working_pudf <- read_dta("Library/CloudStorage/GoogleDrive-lamhine@stanford.edu/My Drive/My papers, presentations, and abstracts/BRFSS MRACASC1/Texas/PUDF15/state_15_working_pudf.dta")
 
+# need to pull in 2020 data and weights from each year as well
+
 ## select variables ##
 # detailed race variable needs to be constructed from vars starting with c07q04
 # ACEs questions start with TX10Q
